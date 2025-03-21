@@ -1,0 +1,49 @@
+{
+  "name": "sweet-confession",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SweetConfession adalah aplikasi web yang dirancang untuk mengungkapkan perasaan secara digital melalui amplop interaktif dan surat yang dianimasikan dengan indah.",
+  "author": "demonicheinz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/demonicheinz/sweet-confession.git"
+  },
+  "homepage": "https://confess.heinz.id",
+  "bugs": {
+    "url": "https://github.com/demonicheinz/sweet-confession/issues"
+  },
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.5.0",
+    "framer-motion": "^12.5.0",
+    "next": "15.2.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["@biomejs/biome", "sharp"]
+  },
+  "lint-staged": {
+    "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
+      "biome check --write --no-errors-on-unmatched"
+    ]
+  }
+}
