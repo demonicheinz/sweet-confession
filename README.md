@@ -1,179 +1,191 @@
 <div align=center>
 
-<!-- ![Banner](/assets/banner.png) -->
-
-<br>
+![Banner](/assets/banner.png)
 
 ![Next.js](https://img.shields.io/badge/Next.js-black?logo=nextdotjs&labelColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-black?logo=typescript&labelColor=black)
 ![React](https://img.shields.io/badge/React-black?logo=react&labelColor=black)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-black?logo=tailwindcss&labelColor=black)
-![Framer Motion](https://img.shields.io/badge/Framer-Motion-black?logo=framer&labelColor=black)
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-black?logo=framer&labelColor=black)
 
 ![GitHub License](https://img.shields.io/github/license/demonicheinz/sweet-confession?logo=creative-commons&logoColor=white&label=License)
 ![GitHub last commit](https://img.shields.io/github/last-commit/demonicheinz/sweet-confession?logo=github&label=Last%20Commit)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/demonicheinz/sweet-confession/CodeQL.yml?branch=main&logo=github&label=Build)
 [![Live Preview](https://img.shields.io/badge/Live%20Preview-🔗-blue?logo=vercel&logoColor=white)](https://sweet-confession.vercel.app//)
 
-# SweetConfession 💌
+<h3>Sweet Confession</h3>
 
-SweetConfession adalah aplikasi web yang dirancang untuk mengungkapkan perasaan cinta secara digital melalui amplop interaktif dan surat yang dianimasikan dengan indah.
+A beautiful and interactive way to express your feelings through a digital love letter. Open a virtual envelope to reveal a heartfelt message with elegant animations and immersive audio experience.
 
 </div>
 
+---
+
 <br>
 
-## 📃 Daftar Isi
+## 📃 Table of Content
 
-1. [Fitur Utama](#✨-fitur-utama)
-2. [Teknologi](#🚀-teknologi)
-3. [Prasyarat](#📋-prasyarat)
-4. [Instalasi](#🛠️-instalasi)
-5. [Membangun untuk Produksi](#️🏗️-membangun-untuk-produksi)
-6. [Deployment](#🚢-deployment)
-7. [Kompatibilitas](#📱-kompatibilitas)
-8. [Ide Pengembangan Masa Depan](#🎯-ide-pengembangan-masa-depan)
-9. [Kontribusi](#🤝-kontribusi)
-10. [Lisensi](#📄-lisensi)
-11. [Kontak](#👨‍💻-kontak)
+- [📃 Table of Content](#📃-table-of-content)
+- [✨ Features](#✨-features)
+- [🚀 Tech Stack](#🚀-tech-stack)
+- [📋 Prerequisite](#📋-prerequisite)
+- [🔧 Installation](#🔧-installation)
+- [🏗️ Building for Production](#🏗️-building-for-production)
+- [📝 Usage](#📝-usage)
+- [🎨 Customization](#🎨-customization)
+- [🔊 Audio Features](#🔊-audio-features)
+- [🤝 Contributing](#🤝-contributing)
+- [📄 License](#📄-license)
+- [👨‍💻 Contact](#👨‍💻-contact)
 
-## ✨ Fitur Utama
+## ✨ Features
 
-- **Amplop Interaktif** - Amplop animasi yang bisa dibuka dengan klik
-- **Surat Digital** - Tampilan surat cinta dengan animasi yang lembut
-- **Responsif** - Tampilan optimal di berbagai ukuran perangkat
-- **Tombol Respons** - Pengguna dapat merespons langsung ke WhatsApp atau Instagram
-- **Animasi Menarik** - Menggunakan Framer Motion untuk transisi halus
+- **Interactive Envelope**: Beautiful 3D envelope with opening animation
+- **Elegant Typography**: Handwritten-style text using "Dancing Script" font
+- **Immersive Audio**: Background music and sound effects for a complete experience
+- **Responsive Design**: Mobile-first approach that works on all devices
+- **Interactive Elements**: Smooth animations and transitions
+- **Easy Sharing**: Integrated WhatsApp button for quick responses
 
-## 🚀 Teknologi
+## 🚀 Tech Stack
 
-Aplikasi ini dibangun menggunakan teknologi modern:
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: React Icons
 
-- [Next.js 15](https://nextjs.org/) - Framework React dengan fitur server-side rendering
-- [TypeScript](https://www.typescriptlang.org/) - Untuk type-safety dan pengembangan yang lebih baik
-- [TailwindCSS 4](https://tailwindcss.com/) - Framework CSS utility-first
-- [Framer Motion](https://www.framer.com/motion/) - Library animasi untuk React
+## 📋 Prerequisite
 
-## 📋 Prasyarat
+Make sure you have installed:
 
-Pastikan Anda telah menginstal:
+- **Node.js** `v18` or later → [Download Node.js](https://nodejs.org/)
+- **Package Manager**: 
+- [`pnpm`](https://pnpm.io/) (recommended) 
+- [`npm`](https://www.npmjs.com/) 
+- [`yarn`](https://yarnpkg.com/) 
+- [`bun`](https://bun.sh/)
 
-- **Node.js** `v18` atau yang lebih baru → [Download Node.js](https://nodejs.org/)
-- **Package Manager**:  
-  - [`pnpm`](https://pnpm.io/) (disarankan)  
-  - [`npm`](https://www.npmjs.com/)  
-  - [`yarn`](https://yarnpkg.com/)  
-  - [`bun`](https://bun.sh/)
+## 🔧 Installation
 
-## 🛠️ Instalasi
+1. Clone the repository
+   ```bash
+   git clone https://github.com/demonicheinz/sweet-confession.git
+   cd sweet-confession
+   ```
 
-1. **Klon repositori**
+2. Install dependencies
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   # or
+   bun install
+   ```
 
-    ```bash
-    git clone https://github.com/demonicheinz/sweet-confession.git
-    cd sweet-confession
-    ```
+3. Run development server
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
 
-2. **Instal dependensi**
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-    ```bash
-    npm install
-    # atau
-    pnpm install
-    # atau
-    yarn install
-    # atau
-    bun install
-    ```
-
-3. **Jalankan server pengembangan**
-
-    ```bash
-    npm run dev
-    # atau
-    pnpm dev
-    # atau
-    yarn dev
-    # atau
-    bun dev
-    ```
-
-4. **Buka browser**
-   
-    Buka [http://localhost:3000](http://localhost:3000) di browser Anda.
-
-
-## 🏗️ Membangun untuk Produksi
+## 🏗️ Building for Production
 
 ```bash
 npm run build
-# atau
+# or
 pnpm build
-# atau
+# or
 yarn build
-# atau
+# or
 bun build
 ```
 
-Untuk menjalankan versi produksi:
+To run a production build:
 
 ```bash
 npm start
-# atau
+# or
 pnpm start
-# atau
+# or
 yarn start
-# atau
+# or
 bun start
 ```
 
-## 🚢 Deployment
+## 📝 Usage
 
-Aplikasi ini dapat dengan mudah di-deploy ke platform seperti Vercel, Netlify, atau layanan hosting lainnya yang mendukung Next.js.
+1. The application opens with a pink envelope containing a heart
+2. Click on the envelope to open it
+3. A love letter appears with an automatic typing animation
+4. After the letter is complete, a signature appears at the bottom
+5. A reply button becomes visible, allowing the recipient to respond via WhatsApp
 
-### Deploy ke Vercel
+## 🎨 Customization
 
-1. Buat repositori GitHub untuk proyek Anda
-2. Hubungkan repositori ke Vercel atau Netlify
-3. Deploy!
+To customize the letter content, modify the constants in `src/utils/constants.ts`:
 
-## 📱 Kompatibilitas
+```typescript
+export const DEFAULT_MESSAGES = [
+  "Dear {recipient},",
+  "This is where your heartfelt message will appear.",
+  "You can add as many paragraphs as you want.",
+  "With love,",
+  "{sender}"
+];
 
-SweetConfession dirancang untuk berfungsi optimal di perangkat:
-- Desktop (Chrome, Firefox, Safari, Edge)
-- Tablet (iPadOS, Android)
-- Mobile (iOS, Android)
+export const CONTACT_INFO = {
+  phoneNumber: "1234567890",
+  replyMessage: "Hi {sender}, I've read your sweet confession!",
+};
+```
 
-## 🎯 Ide Pengembangan Masa Depan
+Replace the placeholders with your own content:
+- `{recipient}`: Recipient's name
+- `{sender}`: Your name (the sender)
 
-- [ ] Musik latar dan efek suara
-- [ ] Fitur untuk menambahkan foto-foto bersama
-- [ ] Pilihan tema dan warna kustom
-- [ ] Timeline perjalanan hubungan
+## 🔊 Audio Features
 
-## 🤝 Kontribusi
+The application includes several audio elements to enhance the experience:
 
-Kontribusi selalu disambut! Jika Anda ingin berkontribusi:
+- **Paper Rustle**: Plays when opening the envelope
+- **Typing Sound**: Accompanies the letter typing animation
+- **Signing Pen**: Plays when the signature appears
+- **Background Music**: Gentle piano music for atmosphere
 
-1. Fork repositori ini
-2. Buat branch fitur (`git checkout -b fitur-baru`)
-3. Commit perubahan Anda (`git commit -m 'Menambahkan fitur baru'`)
-4. Push ke branch (`git push origin fitur-baru`)
-5. Buat Pull Request
+All sounds can be muted with a convenient sound control button.
 
-## 📄 Lisensi
+## 🤝 Contributing
 
-Proyek ini dilisensikan di bawah lisensi [MIT](LICENSE).
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
-## 👨‍💻 Kontak
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-Jika ada pertanyaan atau ingin berkontribusi, jangan ragu untuk menghubungi saya!  
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👨‍💻 Contact
+
+If you have any questions or would like to contribute, feel free to reach out to me!
 
 - Email: [contact@heinz.id](mailto:contact@heinz.id)
-- GitHub: [Heinz](https://github.com/demonicheinz)
+- GitHub: [github.com/demonicheinz](https://github.com/demonicheinz)
+- Website: [heinz.id](https://example.com)
 
-<br>
+---
 
-Dibuat dengan ❤️ untuk mengungkapkan perasaan ke orang yang spesial.
-
-Terima kasih telah melihat proyek ini! **Happy coding**🚀
+*Made with ❤️ for expressing feelings to someone special.*

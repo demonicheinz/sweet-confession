@@ -50,10 +50,6 @@ const dancing_script_font = localFont({
 export const metadata: Metadata = {
   title: "Sweet Confession",
   description: "Sweet Confession - Aplikasi pengungkapan perasaan digital",
-  icons: {
-    icon: "/icon.png",
-    apple: "/apple-icon.png",
-  },
   appleWebApp: {
     title: "Sweet Confession",
     statusBarStyle: "black-translucent",
@@ -72,10 +68,6 @@ export default function RootLayout({
       className={`${poppins_font.variable} ${dancing_script_font.variable} antialiased`}
     >
       <head>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-        />
         <meta
           name="apple-mobile-web-app-title"
           content="Sweet Confession"
